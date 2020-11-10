@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+body h1 {
+    margin-top: 2vh;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 550px; 
+    height: 550px;
+    margin: 2vh auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 5px solid black;
+}
+
+.container div {
+    background-color: white;
+    border: 1px solid #595959;
+}
+
+.options {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.options div {
+    cursor: pointer;
+    background-color: #c9c9c9;
+    width: 150px;
+    margin: 2vh 0;
+    box-shadow: 2px 2px 12px #c9c9c9;
+    transition: all 0.5s ease;
+}
+
+.options div:hover {
+    box-shadow: 2px 2px 12px #828282;
+    transition: all 0.5s ease;
+}
+
+.options div p {
+    padding: 5px 5px;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox *
+}
